@@ -1,0 +1,83 @@
+body, html {
+    margin: 0;
+}
+
+nav {
+    background-color: black;
+    color: white;
+    width: 100%;
+    height: auto;
+    font-weight: bold;
+}
+
+main {
+    height: 80vh;
+}
+
+footer {
+    width: 100%;
+    background-color: #eaeaea;
+}
+
+ul {
+    display: inline-flex;
+    list-style-type: none;
+}
+
+#logo {
+    padding: .5em 1em;
+    font-size: 1.3em;
+    display: inline-block;
+}
+
+#links {
+    margin-top: 1%;
+    font-size: 1em;
+    float: right;
+}
+
+#links a {
+    color: white;
+    padding: 1em;
+    cursor: pointer;
+}
+
+main .left{
+    background-color: grey;
+    margin: 0 auto;
+}
+
+main .right{
+    background-color: white;
+}
+
+.right p {
+    margin-left: 5em;    
+}
+
+.left section {
+    background-color: white;
+    padding: 1em;
+    border-radius: 10%;
+    margin: 1em;
+    cursor: pointer;
+}
+
+.row {
+    margin: 0 auto;
+    height: 50%;
+}
+
+.menu-item {
+    display: none;
+}
+
+.price {
+    color: blue;
+    font-size: .8em;
+}
+
+.rate {
+    color: red;
+    font-size: .5em
+}
